@@ -238,7 +238,7 @@ html, body {
     justify-content: center;
     gap: 0;
     margin-top: 36px;
-    padding: 18px 32px;
+    padding: 12px 24px;
     background: rgba(255,255,255,0.06);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255,255,255,0.12);
@@ -251,18 +251,18 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 32px;
+    padding: 0 24px;
 }
 .hero-stat-num {
     font-family: var(--font-heading), sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 900;
     color: #ffffff;
     letter-spacing: -0.02em;
     line-height: 1;
 }
 .hero-stat-label {
-    font-size: 11px;
+    font-size: 10px;
     color: rgba(255,255,255,0.5);
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -271,7 +271,7 @@ html, body {
 }
 .hero-stat-divider {
     width: 1px;
-    height: 36px;
+    height: 28px;
     background: rgba(255,255,255,0.15);
     flex-shrink: 0;
 }
