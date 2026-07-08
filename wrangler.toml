@@ -1,0 +1,19 @@
+name = "phantom"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[kv_namespaces]]
+binding = "STORE_KV"
+id = "b278f5f4e2a040c69632fb5320eca68d"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "phantom-db"
+database_id = "205c5769-190e-4034-b771-4e5eee9c6b82"
+
+[vars]
+AUTH_SECRET = "phantom-shop-secret-2024"
+ADMIN_EMAIL = "admin@smartshop.mx"
+ADMIN_PASSWORD = "SmartsAdmin123!"
+DISCORD_URL = "https://discord.gg/KT8RRtF48t"

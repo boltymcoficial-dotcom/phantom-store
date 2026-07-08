@@ -1,0 +1,126 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum StockStatus {
+  AVAILABLE
+  SOLD
+  DISABLED
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model StoreSettings {
+  id                String   @id
+  brandName         String
+  brandLabel        String
+  tagline           String
+  heroTitle         String
+  heroDescription   String
+  heroEyebrow       String
+  primaryColor      String
+  secondaryColor    String
+  discordUrl        String
+  discordLabel      String
+  supportHeadline   String
+  supportBody       String
+  featuredTitle     String
+  featuredPrice     Float
+  featuredStockNote String
+  featuredBenefits  String
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model Category {
+  id          String    @id @default(cuid())
+  name        String
+  slug        String    @unique
+  description String
+  accentColor String
+  position    Int       @default(0)
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  products    Product[]
+}
+
+model Product {
+  id               String      @id @default(cuid())
+  categoryId       String
+  name             String
+  slug             String      @unique
+  badge            String?
+  shortDescription String
+  description      String
+  features         String
+  deliveryDetails  String
+  imageUrl         String?
+  priceUsd         Float
+  compareAtPrice   Float?
+  isActive         Boolean     @default(true)
+  isFeatured       Boolean     @default(false)
+  createdAt        DateTime    @default(now())
+  updatedAt        DateTime    @updatedAt
+  category         Category    @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  stockItems       StockItem[]
+}
+
+model StockItem {
+  id        String      @id @default(cuid())
+  productId String
+  code      String
+  note      String?
+  status    StockStatus @default(AVAILABLE)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  product   Product     @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Review {
+  id        String   @id
+  author    String
+  rating    Int      @default(5)
+  content   String
+  position  Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model FaqItem {
+  id        String   @id
+  question  String
+  answer    String
+  position  Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model PaymentMethod {
+  id        String   @id
+  region    String
+  methods   String
+  position  Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

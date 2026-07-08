@@ -1,0 +1,1156 @@
+﻿{
+    "faqs":  [
+                 {
+                     "id":  "faq-1",
+                     "answer":  "Aceptamos los métodos disponibles que indique el staff en Discord antes de confirmar tu compra. Abre ticket para revisar opciones activas.",
+                     "isActive":  true,
+                     "position":  1,
+                     "question":  "Que metodos de pago aceptan?"
+                 },
+                 {
+                     "id":  "faq-2",
+                     "answer":  "La entrega depende del producto y del stock disponible. En la mayoría de casos se coordina por ticket en Discord después de validar el pago.",
+                     "isActive":  true,
+                     "position":  2,
+                     "question":  "Cuanto tarda mi compra?"
+                 },
+                 {
+                     "id":  "faq-3",
+                     "answer":  "Sí, siempre que la compra se haya hecho por nuestros canales oficiales y cumplas las condiciones indicadas por el staff al momento de comprar.",
+                     "isActive":  true,
+                     "position":  3,
+                     "question":  "Tengo garantia si algo falla?"
+                 }
+             ],
+    "reviews":  [
+                    {
+                        "id":  "review-1",
+                        "author":  "Cliente Discord",
+                        "rating":  5,
+                        "content":  "Muy buena atencion, me guiaron rapido y el producto llego sin vueltas.",
+                        "isActive":  true,
+                        "position":  1
+                    },
+                    {
+                        "id":  "review-2",
+                        "author":  "Cliente Discord",
+                        "rating":  5,
+                        "content":  "Entre con duda pero la experiencia estuvo ordenada y si entregaron.",
+                        "isActive":  true,
+                        "position":  2
+                    },
+                    {
+                        "id":  "review-3",
+                        "author":  "Cliente Discord",
+                        "rating":  5,
+                        "content":  "La tienda se ve seria y el ticket se resolvio rapido. Volveria a comprar.",
+                        "isActive":  true,
+                        "position":  3
+                    }
+                ],
+    "products":  [
+                     {
+                         "id":  "prod-e043f16c-c01a-4639-bbc0-5e05211b2a3e",
+                         "name":  "Spotify / permanente",
+                         "slug":  "spotify",
+                         "isSold":  false,
+                         "features":  "Cuentas con duración permanente y  garantía de por vida",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-7bb731fc-9963-4411-b464-bf01fc3b4412.png",
+                         "isActive":  true,
+                         "priceUsd":  4.99,
+                         "createdAt":  "2026-05-23T02:58:36.704Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-7bb731fc-9963-4411-b464-bf01fc3b4412.png"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Spotify / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-ce07909e-d736-4e0a-9fb6-2067d2990c44",
+                         "name":  "Youtube / permanente",
+                         "slug":  "youtube",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y garantía de por vida",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-ce1ee174-88ff-41b0-bc85-c2b82a838cf7.webp",
+                         "isActive":  true,
+                         "priceUsd":  4.99,
+                         "createdAt":  "2026-05-23T03:12:50.407Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-ce1ee174-88ff-41b0-bc85-c2b82a838cf7.webp"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Youtube / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-7c403a0b-e617-4ee0-8511-8b128fb3177d",
+                         "name":  "Nitro 1 mes",
+                         "slug":  "nitro-1-mes",
+                         "isSold":  false,
+                         "features":  "Uso de emojis y stickers personalizados en cualquier servidor, transmisión de video en HD (hasta 4K y 60 FPS), subida de archivos de hasta 500 MB y 2 mejoras de servidor mensuales",
+                         "imageUrl":  "https://http2.mlstatic.com/D_NQ_NP_915035-MPE71544159648_092023-O.webp",
+                         "isActive":  true,
+                         "priceUsd":  4.5,
+                         "createdAt":  "2026-05-23T03:25:39.195Z",
+                         "imageUrls":  [
+                                           "https://http2.mlstatic.com/D_NQ_NP_915035-MPE71544159648_092023-O.webp"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Producto para mejorar tu experiencia en Discord. Coordinamos la compra en ticket, confirmamos disponibilidad, metodo de pago y condiciones de garantia antes de entregar. Detalle actual: Uso de emojis y stickers personalizados en cualquier servidor, transmisión de video en HD (hasta 4K y 60 FPS), subida de archivos de hasta 500 MB y 2 mejoras de servidor mensuales",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Nitro 1 Mes disponible para Discord con entrega por ticket y validacion de stock antes del pago."
+                     },
+                     {
+                         "id":  "prod-abc5ff7a-5f35-437c-b4bc-37ecc546c4e9",
+                         "name":  "Promocode 3 meses",
+                         "slug":  "promocode-3-meses",
+                         "isSold":  false,
+                         "features":  "Uso de emojis y stickers personalizados en cualquier servidor, transmisión de video en HD (hasta 4K y 60 FPS), subida de archivos de hasta 500 MB y 2 mejoras de servidor mensuales",
+                         "imageUrl":  "https://i.ytimg.com/vi/6iLXBikqcIY/maxresdefault.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-05-23T03:29:22.076Z",
+                         "imageUrls":  [
+                                           "https://i.ytimg.com/vi/6iLXBikqcIY/maxresdefault.jpg"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Producto para mejorar tu experiencia en Discord. Coordinamos la compra en ticket, confirmamos disponibilidad, metodo de pago y condiciones de garantia antes de entregar. Detalle actual: Uso de emojis y stickers personalizados en cualquier servidor, transmisión de video en HD (hasta 4K y 60 FPS), subida de archivos de hasta 500 MB y 2 mejoras de servidor mensuales",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Promocode 3 Meses disponible para Discord con entrega por ticket y validacion de stock antes del pago."
+                     },
+                     {
+                         "id":  "prod-29e4c485-edb7-401d-b822-2e4f4f025aa6",
+                         "name":  "14 Server boost 1 Mes",
+                         "slug":  "14-server-boost-1-mes",
+                         "isSold":  false,
+                         "features":  "M├ís espacio para coleccionables, mayor calidad de audio, mesas de sonido, ventajas acumulativas",
+                         "imageUrl":  "https://production-gameflipusercontent.fingershock.com/us-east-1:50963b86-775a-4bff-904b-69ab872c9220/5d279cfe-c4e6-4a8a-8cd4-e18b27b5e765/33632c73-1ecf-4d0b-8a09-62b977591fa4/640x640.webp",
+                         "isActive":  true,
+                         "priceUsd":  6.99,
+                         "createdAt":  "2026-05-23T03:58:07.898Z",
+                         "imageUrls":  [
+                                           "https://production-gameflipusercontent.fingershock.com/us-east-1:50963b86-775a-4bff-904b-69ab872c9220/5d279cfe-c4e6-4a8a-8cd4-e18b27b5e765/33632c73-1ecf-4d0b-8a09-62b977591fa4/640x640.webp"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Producto para mejorar tu experiencia en Discord. Coordinamos la compra en ticket, confirmamos disponibilidad, metodo de pago y condiciones de garantia antes de entregar. Detalle actual: M├ís espacio para coleccionables, mayor calidad de audio, mesas de sonido, ventajas acumulativas",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "14 Server Boost 1 Mes disponible para Discord con entrega por ticket y validacion de stock antes del pago."
+                     },
+                     {
+                         "id":  "prod-8035e0e1-6438-458d-8065-cf02a686b01d",
+                         "name":  "14 Server boost 3 Meses",
+                         "slug":  "14-server-boost-3-meses",
+                         "isSold":  false,
+                         "features":  "M├ís espacio para coleccionables, mayor calidad de audio, mesas de sonido, ventajas acumulativas",
+                         "imageUrl":  "https://static.kinguin.net/media/images/products/_DiscordServerBoostSS1.jpg",
+                         "isActive":  true,
+                         "priceUsd":  11.99,
+                         "createdAt":  "2026-05-23T03:59:23.674Z",
+                         "imageUrls":  [
+                                           "https://static.kinguin.net/media/images/products/_DiscordServerBoostSS1.jpg"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Producto para mejorar tu experiencia en Discord. Coordinamos la compra en ticket, confirmamos disponibilidad, metodo de pago y condiciones de garantia antes de entregar. Detalle actual: M├ís espacio para coleccionables, mayor calidad de audio, mesas de sonido, ventajas acumulativas",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "14 Server Boost 3 Meses disponible para Discord con entrega por ticket y validacion de stock antes del pago."
+                     },
+                     {
+                         "id":  "prod-92249618-598a-4413-babc-59107fa5c624",
+                         "name":  "Discord accs",
+                         "slug":  "discord-accs",
+                         "isSold":  false,
+                         "features":  "Cuentas antiguas de discord full access",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-62a32b61-fcab-4b70-8afe-283d49bf7169.png",
+                         "isActive":  true,
+                         "priceUsd":  3.5,
+                         "createdAt":  "2026-05-23T04:08:25.116Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-62a32b61-fcab-4b70-8afe-283d49bf7169.png",
+                                           "https://media.discordapp.net/attachments/1504983630500462704/1518319334303465472/image.png?ex=6a397c92\u0026is=6a382b12\u0026hm=8850e7a684228d3e4536d227f4fdfda921005f1eec1b2280c4d116558960d2cd\u0026=\u0026format=webp\u0026quality=lossless"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Servicio enfocado en Discord. El staff confirma los detalles del producto, disponibilidad y tiempo de entrega directamente en el ticket para que compres con claridad. Detalle actual: Cuentas antiguas de discord full access",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Discord Accs para Discord con atencion por ticket, revision previa y entrega coordinada."
+                     },
+                     {
+                         "id":  "prod-17657674-b3f4-46fc-8a5c-f1a70088da13",
+                         "name":  "Decoraciones",
+                         "slug":  "decoraciones",
+                         "isSold":  false,
+                         "features":  "Decoraciones de todo tipo para tu perfil de discord",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-07d883ac-0154-4ff6-8df2-7dccbd9696a1.png",
+                         "isActive":  true,
+                         "priceUsd":  3.2,
+                         "createdAt":  "2026-05-23T04:14:25.855Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-07d883ac-0154-4ff6-8df2-7dccbd9696a1.png",
+                                           "https://media.discordapp.net/attachments/1504983630500462704/1518319037262860288/image.png?ex=6a397c4b\u0026is=6a382acb\u0026hm=ee488c78f0bdedcd4cb25d035af02524b45f51716f2995ce9bee3cd2ed0764d7\u0026=\u0026format=webp\u0026quality=lossless"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Servicio enfocado en Discord. El staff confirma los detalles del producto, disponibilidad y tiempo de entrega directamente en el ticket para que compres con claridad. Detalle actual: Decoraciones de todo tipo para tu perfil de discord",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Decoraciones para Discord con atencion por ticket, revision previa y entrega coordinada."
+                     },
+                     {
+                         "id":  "prod-9acf6af8-2ae9-43d6-8ade-d527e67f192c",
+                         "name":  "Prime video / permanente",
+                         "slug":  "prime-video",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y con una garantía de 30 dias",
+                         "imageUrl":  "https://variety.com/wp-content/uploads/2024/10/Prime-Video-Logo-Embed.jpg?w=1000\u0026h=667\u0026crop=1",
+                         "isActive":  true,
+                         "priceUsd":  4.2,
+                         "createdAt":  "2026-05-23T04:18:26.954Z",
+                         "imageUrls":  [
+                                           "https://variety.com/wp-content/uploads/2024/10/Prime-Video-Logo-Embed.jpg?w=1000\u0026h=667\u0026crop=1"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Prime Video / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-bec29346-3487-4435-939d-b6bba2addc9f",
+                         "name":  "1k Members off",
+                         "slug":  "1k-members-off",
+                         "isSold":  false,
+                         "features":  "1000 miembros de discord desconectados",
+                         "imageUrl":  "https://ik.imagekit.io/6ujrxqwom/Captura_de_pantalla_2026-02-21_185755.webp",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-23T04:24:27.840Z",
+                         "imageUrls":  [
+                                           "https://ik.imagekit.io/6ujrxqwom/Captura_de_pantalla_2026-02-21_185755.webp"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Servicio enfocado en Discord. El staff confirma los detalles del producto, disponibilidad y tiempo de entrega directamente en el ticket para que compres con claridad. Detalle actual: 1000 miembros de discord desconectados / non drops",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "1k Members Off para Discord con atencion por ticket, revision previa y entrega coordinada."
+                     },
+                     {
+                         "id":  "prod-e586b164-0cb3-46bc-a0f7-384e31f0a872",
+                         "name":  "1k Members on",
+                         "slug":  "1k-members-on",
+                         "isSold":  false,
+                         "features":  "1000 miembros de discord conectados / non drops",
+                         "imageUrl":  "https://ik.imagekit.io/6ujrxqwom/Captura_de_pantalla_2026-02-21_185745.webp",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-05-23T04:25:48.847Z",
+                         "imageUrls":  [
+                                           "https://ik.imagekit.io/6ujrxqwom/Captura_de_pantalla_2026-02-21_185745.webp"
+                                       ],
+                         "categoryId":  "cat-discord",
+                         "isFeatured":  false,
+                         "description":  "Servicio enfocado en Discord. El staff confirma los detalles del producto, disponibilidad y tiempo de entrega directamente en el ticket para que compres con claridad. Detalle actual: 1000 miembros de discord conectados / non drops",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "1k Members On para Discord con atencion por ticket, revision previa y entrega coordinada."
+                     },
+                     {
+                         "id":  "prod-87ad8d29-a4db-436b-9c01-a5cb80e06c67",
+                         "name":  "Smart\u0027s Reseller",
+                         "slug":  "smart-s-reseller",
+                         "isSold":  false,
+                         "features":  "Requisitos:\r\nComprar 1 vez a la semana\r\nTener LTC o BNC\r\nTener shop o comunidad\r\nResponsabilidad",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-94376ed5-92fd-4886-9b04-882eb65955d6.webp",
+                         "isActive":  true,
+                         "priceUsd":  3.5,
+                         "createdAt":  "2026-05-23T04:34:13.343Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-94376ed5-92fd-4886-9b04-882eb65955d6.webp"
+                                       ],
+                         "categoryId":  "cat-fortnite",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para crecimiento o reventa. Se atiende por ticket para confirmar alcance, tiempos aproximados, requisitos y condiciones antes de iniciar. Detalle actual: Requisitos: Comprar 1 vez a la semana, Tener LTC o BNC, Tener shop o comunidad, Responsabilidad",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Smart\u0027S Reseller con atencion personalizada por Discord y detalles confirmados antes del pago."
+                     },
+                     {
+                         "id":  "prod-f78b613a-b555-49fa-82ac-118a7397b3f4",
+                         "name":  "followers ig",
+                         "slug":  "social-boost",
+                         "isSold":  false,
+                         "features":  "1000 Seguidores en 3 plataformas / non drops",
+                         "imageUrl":  "https://store-images.s-microsoft.com/image/apps.43327.13510798887167234.cadff69d-8229-427b-a7da-21dbaf80bd81.79b8f512-1b22-45d6-9495-881485e3a87e",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-23T04:43:46.170Z",
+                         "imageUrls":  [
+                                           "https://store-images.s-microsoft.com/image/apps.43327.13510798887167234.cadff69d-8229-427b-a7da-21dbaf80bd81.79b8f512-1b22-45d6-9495-881485e3a87e"
+                                       ],
+                         "categoryId":  "cat-fortnite",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para crecimiento o reventa. Se atiende por ticket para confirmar alcance, tiempos aproximados, requisitos y condiciones antes de iniciar. Detalle actual: 1000 Seguidores en 3 plataformas / non drops (son permanentes los seguidores, nunca se iran)",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "1k de followers en instagram, no se caen y son permanentes"
+                     },
+                     {
+                         "id":  "prod-46f6a563-5a92-45b2-bbbc-246bc39aca89",
+                         "name":  "Chat gpt / permanente",
+                         "slug":  "chat-gpt",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y con una garantía de 30 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-051860bc-19a7-45dd-ab72-d5e940de2652.jpg",
+                         "isActive":  true,
+                         "priceUsd":  5.5,
+                         "createdAt":  "2026-05-23T05:02:17.253Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-051860bc-19a7-45dd-ab72-d5e940de2652.jpg"
+                                       ],
+                         "categoryId":  "cat-robux",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para uso personal. Coordinamos por ticket, confirmamos disponibilidad, duracion y condiciones de garantia antes de finalizar la compra. Detalle actual: Cuenta con duración permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Chat Gpt / Permanente digital listo para entrega por Discord con soporte y verificacion previa."
+                     },
+                     {
+                         "id":  "prod-86aedca5-25f4-408a-9097-615e39e4a10a",
+                         "name":  "Capcut / permanente",
+                         "slug":  "capcut",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y con una garantía de 90 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-cd42b5eb-019a-48e0-a31d-956b0ffe1c8a.webp",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-23T05:03:25.555Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-cd42b5eb-019a-48e0-a31d-956b0ffe1c8a.webp"
+                                       ],
+                         "categoryId":  "cat-robux",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para uso personal. Coordinamos por ticket, confirmamos disponibilidad, duracion y condiciones de garantia antes de finalizar la compra. Detalle actual: Cuenta con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Capcut / Permanente digital listo para entrega por Discord con soporte y verificacion previa."
+                     },
+                     {
+                         "id":  "prod-74472ee5-9cbd-49ab-adab-de0d68eb460b",
+                         "name":  "Geminis / permanente",
+                         "slug":  "geminis",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y con una garantía de 30 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-da7c11fd-42e3-44f3-9fe6-6ac88101f776.jpg",
+                         "isActive":  true,
+                         "priceUsd":  5.7,
+                         "createdAt":  "2026-05-23T05:03:58.014Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-da7c11fd-42e3-44f3-9fe6-6ac88101f776.jpg"
+                                       ],
+                         "categoryId":  "cat-robux",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para uso personal. Coordinamos por ticket, confirmamos disponibilidad, duracion y condiciones de garantia antes de finalizar la compra. Detalle actual: Cuenta con duración permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Geminis / Permanente digital listo para entrega por Discord con soporte y verificacion previa."
+                     },
+                     {
+                         "id":  "prod-8e0aabc8-3c62-4dd4-a017-b67086a88c50",
+                         "name":  "Express vpn / permanente",
+                         "slug":  "express-vpn",
+                         "isSold":  false,
+                         "features":  "Vpn para pc y celular",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-bf817d1c-471b-4065-acbc-4628942831f1.png",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-05-23T05:19:56.930Z",
+                         "categoryId":  "cat-robux",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para uso personal. Coordinamos por ticket, confirmamos disponibilidad, duracion y condiciones de garantia antes de finalizar la compra. Detalle actual: Vpn para pc y celular",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Express Vpn / Permanente digital listo para entrega por Discord con soporte y verificacion previa."
+                     },
+                     {
+                         "id":  "prod-67786b8b-d3dd-4076-be0d-5f316fcaf0d0",
+                         "name":  "Pavos",
+                         "slug":  "pavos",
+                         "isSold":  false,
+                         "features":  "1000 Pavos en fornite",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-9c160136-9091-47fd-a37d-6ff7a0aeeb60.jpg",
+                         "isActive":  true,
+                         "priceUsd":  7,
+                         "createdAt":  "2026-05-23T05:33:29.215Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-9c160136-9091-47fd-a37d-6ff7a0aeeb60.jpg"
+                                       ],
+                         "categoryId":  "cat-social",
+                         "isFeatured":  false,
+                         "description":  "Producto gamer disponible mediante ticket. El staff revisa disponibilidad, plataforma, datos necesarios y condiciones antes de procesar la entrega. Detalle actual: 1000 Pavos en fornite",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Pavos para gaming con entrega coordinada por ticket y confirmacion de stock."
+                     },
+                     {
+                         "id":  "prod-c15e5981-74e5-46b9-a3d9-a3fca851758d",
+                         "name":  "Robux",
+                         "slug":  "robux",
+                         "isSold":  false,
+                         "features":  "1000 Robux de roblox",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-bf697a8d-c660-47b3-9816-82fb905aae54.webp",
+                         "isActive":  true,
+                         "priceUsd":  7,
+                         "createdAt":  "2026-05-23T05:34:06.178Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-bf697a8d-c660-47b3-9816-82fb905aae54.webp"
+                                       ],
+                         "categoryId":  "cat-social",
+                         "isFeatured":  false,
+                         "description":  "Producto gamer disponible mediante ticket. El staff revisa disponibilidad, plataforma, datos necesarios y condiciones antes de procesar la entrega. Detalle actual: 1000 Robux de roblox",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Robux para gaming con entrega coordinada por ticket y confirmacion de stock."
+                     },
+                     {
+                         "id":  "prod-73a2a476-0f7b-4ba8-8728-43b1dede7702",
+                         "name":  "Steam accs / permanente",
+                         "slug":  "steam-accs",
+                         "isSold":  false,
+                         "features":  "Juegos de compra de steam",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-d0d366e5-7ffd-4049-ba2d-cab482ed414f.webp",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-05-23T05:35:46.113Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-d0d366e5-7ffd-4049-ba2d-cab482ed414f.webp"
+                                       ],
+                         "categoryId":  "cat-social",
+                         "isFeatured":  false,
+                         "description":  "Producto gamer disponible mediante ticket. El staff revisa disponibilidad, plataforma, datos necesarios y condiciones antes de procesar la entrega. Detalle actual: Juegos de compra de steam randoms",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Steam Accs / Permanente para gaming con entrega coordinada por ticket y confirmacion de stock."
+                     },
+                     {
+                         "id":  "prod-a82c7718-3983-44d1-8aa6-f6ede84e1fa1",
+                         "name":  "Vape4 / permanente",
+                         "slug":  "vape4",
+                         "isSold":  false,
+                         "features":  "Cuenta con duracion permanente y garantía de 30 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-a3f2a0c0-a1c4-4c57-a177-a8005fda901d.webp",
+                         "isActive":  true,
+                         "priceUsd":  9.99,
+                         "createdAt":  "2026-05-23T05:40:28.236Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-a3f2a0c0-a1c4-4c57-a177-a8005fda901d.webp"
+                                       ],
+                         "categoryId":  "cat-social",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Cuenta con duracion permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Vape4 / Permanente para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-6a441bf5-5f1f-4056-b0eb-6bc6269d0cc2",
+                         "name":  "Koid client / permanente",
+                         "slug":  "koid-client",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y con una garantía de 30 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-d945354c-3abb-4c40-97fd-01352f9e6ef6.webp",
+                         "isActive":  true,
+                         "priceUsd":  3.5,
+                         "createdAt":  "2026-05-23T05:41:04.026Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-d945354c-3abb-4c40-97fd-01352f9e6ef6.webp"
+                                       ],
+                         "categoryId":  "cat-social",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Cuenta con duración permanente y con una garantía de 30 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Koid Client / Permanente para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-326b0b85-c148-40bf-a910-64d171ef2ffb",
+                         "name":  "Metodo MFA",
+                         "slug":  "metodo-mfa",
+                         "isSold":  false,
+                         "features":  "Consigue cuentas de minecraft premiun gratis con el metodo que usa Smart\u0027s Shop",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-23c04b58-240f-4dee-93c3-b77aeae74881.png",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-05-23T05:47:28.472Z",
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Metodo digital para usuarios que quieren aprender el proceso paso a paso. El staff entrega la informacion por Discord y resuelve dudas basicas despues de la compra. Detalle actual: Consigue cuentas de minecraft premiun gratis con el metodo que usa Smart\u0027s Shop",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Metodo MFA en formato guia digital, entregado por ticket con indicaciones claras."
+                     },
+                     {
+                         "id":  "prod-a239907e-c946-4d0e-96ce-f33f5d8b651d",
+                         "name":  "Metodo Streamings",
+                         "slug":  "metodo-streamings",
+                         "isSold":  false,
+                         "features":  "Consigue cuentas de streaming gratis con el metodo que usa Smart\u0027s Shop",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-a7a9fc26-8371-4d8c-890c-d605dc339f72.jpg",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-05-23T05:52:45.627Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-a7a9fc26-8371-4d8c-890c-d605dc339f72.jpg"
+                                       ],
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Metodo digital para usuarios que quieren aprender el proceso paso a paso. El staff entrega la informacion por Discord y resuelve dudas basicas despues de la compra. Detalle actual: Consigue cuentas de streaming gratis con el metodo que usa Smart\u0027s Shop",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Metodo Streamings en formato guia digital, entregado por ticket con indicaciones claras."
+                     },
+                     {
+                         "id":  "prod-9b126b77-d20c-4aa2-8577-16f4e0c45277",
+                         "name":  "Metodo nitro boost",
+                         "slug":  "metodo-nitro-1-mes",
+                         "isSold":  false,
+                         "features":  "Consigue nitro por 1 mes gratis con el metodo que usa Smart\u0027s Shop",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-99195ad6-9510-4632-8357-b0b6f164cdeb.jpg",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-05-23T05:55:21.768Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-99195ad6-9510-4632-8357-b0b6f164cdeb.jpg"
+                                       ],
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Producto para mejorar tu experiencia en Discord. Coordinamos la compra en ticket, confirmamos disponibilidad, metodo de pago y condiciones de garantia antes de entregar. Detalle actual: Consigue nitro por 1 mes gratis con el metodo que usa Smart\u0027s Shop",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Metodo Nitro 1 Mes disponible para Discord con entrega por ticket y validacion de stock antes del pago."
+                     },
+                     {
+                         "id":  "prod-ae6d5f12-4944-4763-8d50-69214223e681",
+                         "name":  "Metodo Chat gpt",
+                         "slug":  "metodo-chat-gpt",
+                         "isSold":  false,
+                         "features":  "Consigue cuentas de chat gpt plus gratis con el metodo que usa Smart\u0027s Shop",
+                         "imageUrl":  "https://i.ytimg.com/vi/WEBGosICDDs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD\u0026rs=AOn4CLDHWkTB-Wvbh2D2NsIeRNZEtQMVQw",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-05-23T05:57:30.331Z",
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Metodo digital para usuarios que quieren aprender el proceso paso a paso. El staff entrega la informacion por Discord y resuelve dudas basicas despues de la compra. Detalle actual: Consigue cuentas de chat gpt plus gratis con el metodo que usa Smart\u0027s Shop",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Metodo Chat Gpt en formato guia digital, entregado por ticket con indicaciones claras."
+                     },
+                     {
+                         "id":  "prod-21a926eb-a9c3-45b5-bf76-4f84becb4138",
+                         "name":  "Netflix / permanente",
+                         "slug":  "netflix",
+                         "isSold":  false,
+                         "features":  "Entrega por ticket.\r\nSoporte por Discord.",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-ea7b716c-ca75-4300-861d-8cf37f37d1d4.jpg",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-23T15:24:08.375Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-ea7b716c-ca75-4300-861d-8cf37f37d1d4.jpg"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Netflix / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-87bdc5f7-ded2-4702-a440-2f643e3af8cd",
+                         "name":  "Disney / permanente",
+                         "slug":  "disney",
+                         "isSold":  false,
+                         "features":  "Entrega por ticket.\r\nSoporte por Discord.",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-f32b0fd6-73f9-4ea7-aa79-efde72b8affe.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2.5,
+                         "createdAt":  "2026-05-23T15:26:57.489Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-f32b0fd6-73f9-4ea7-aa79-efde72b8affe.jpg"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuentas con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Disney / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-03cdc549-e0da-4916-a847-e11d864d0916",
+                         "name":  "Hbo max / permanente",
+                         "slug":  "hdo-max",
+                         "isSold":  false,
+                         "features":  "Cuentas con duración permanente y con una garantía de 90 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-8978594f-f2d9-4384-a131-6ef8d90c3471.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2.5,
+                         "createdAt":  "2026-05-23T15:36:04.348Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-8978594f-f2d9-4384-a131-6ef8d90c3471.jpg"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuentas con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Hbo Max / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-88aab776-bc9b-4d7b-b4e1-bbf9f204107d",
+                         "name":  "Capa purple heart",
+                         "slug":  "capa-purple-heart",
+                         "isSold":  false,
+                         "features":  "Capa para usuarios premiuns de minecraft",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-3d414203-0089-4c5f-8133-f6d22bf6489b.webp",
+                         "isActive":  true,
+                         "priceUsd":  4,
+                         "createdAt":  "2026-05-23T15:36:16.569Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-3d414203-0089-4c5f-8133-f6d22bf6489b.webp"
+                                       ],
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Capa para usuarios premiuns de minecraft",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Capa Purple Heart para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-f4f252f5-5218-48af-b187-d92d65c542b3",
+                         "name":  "Capa experience",
+                         "slug":  "capa-experience",
+                         "isSold":  false,
+                         "features":  "Capa para usuarios premiuns de minecraft",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-5473cc17-9ed6-411c-8874-b56e98074bc0.webp",
+                         "isActive":  true,
+                         "priceUsd":  24,
+                         "createdAt":  "2026-05-23T15:37:15.488Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-5473cc17-9ed6-411c-8874-b56e98074bc0.webp"
+                                       ],
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Capa para usuarios premiuns de minecraft",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Capa Experience para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-9f58ee06-0dbe-43c0-bd2b-be0b8260c9e3",
+                         "name":  "Paramount / permanente",
+                         "slug":  "paramount",
+                         "isSold":  false,
+                         "features":  "Cuentas con duración permanente y con una garantía de 90 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-88553307-cfb5-4bfd-a9be-3b1a5ed52a47.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2.5,
+                         "createdAt":  "2026-05-23T15:37:29.563Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-88553307-cfb5-4bfd-a9be-3b1a5ed52a47.jpg"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuentas con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Paramount / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-b6bcf6bc-3055-42be-a49a-71b7dfd027ba",
+                         "name":  "Capa menace",
+                         "slug":  "capa-menace",
+                         "isSold":  false,
+                         "features":  "Capa para usuarios premiuns de minecraft",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-0778b4be-8b32-40e6-81e6-94ead858d081.webp",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-23T15:39:20.820Z",
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Capa para usuarios premiuns de minecraft",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Capa Menace para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-25d350a5-4512-4ab0-be7c-e60e43e324ad",
+                         "name":  "Dazn / permanente",
+                         "slug":  "dazn",
+                         "isSold":  false,
+                         "features":  "Cuentas con duración permanente y con una garantía de 90 dias",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-36bdc8b4-e58a-4b53-adbc-2805cc3e99e6.jpg",
+                         "isActive":  true,
+                         "priceUsd":  3.5,
+                         "createdAt":  "2026-05-23T15:39:58.129Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-36bdc8b4-e58a-4b53-adbc-2805cc3e99e6.jpg"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Dazn / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-15ee85f7-5678-4acd-8467-9758b4e374b6",
+                         "name":  "Capa cooper",
+                         "slug":  "capa-cooper",
+                         "isSold":  false,
+                         "features":  "Capa para usuarios premiuns de minecraft",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-34f7c6bf-5469-4ce6-9d4e-f86e4a79405c.webp",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-05-23T15:40:03.419Z",
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Capa para usuarios premiuns de minecraft",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Capa Cooper para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-0e516748-c281-400e-a528-aaf6488225e5",
+                         "name":  "Capa home",
+                         "slug":  "capa-home",
+                         "isSold":  false,
+                         "features":  "Capa para usuarios premiuns de minecraft",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-9ce83b62-dc4c-4feb-b7f3-45f1bfd35fbb.webp",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-23T15:40:42.662Z",
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega. Detalle actual: Capa para usuarios premiuns de minecraft",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Capa Home para Minecraft con entrega segura por ticket y soporte de Smart\u0027s Shop."
+                     },
+                     {
+                         "id":  "prod-cd8b450a-ef10-4e63-ae16-f9dc5a9f4498",
+                         "name":  "Nba / permanente",
+                         "slug":  "espn",
+                         "isSold":  false,
+                         "features":  "Cuentas con duración permanente y con una garantía de 90 dias",
+                         "imageUrl":  "https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small/nba-logo-on-transparent-background-free-vector.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2.5,
+                         "createdAt":  "2026-05-23T15:41:15.401Z",
+                         "imageUrls":  [
+                                           "https://static.vecteezy.com/system/resources/thumbnails/015/863/585/small/nba-logo-on-transparent-background-free-vector.jpg"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 90 dias",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Nba / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-c61da37f-41cb-4c1c-88c5-07972b95ce2e",
+                         "name":  "Movistar / permanente",
+                         "slug":  "movistar-permanente",
+                         "isSold":  false,
+                         "features":  "Cuenta con duración permanente y con una garantía de 30 dias",
+                         "imageUrl":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFmsmvuGLYLhcBWyMJr_yT5OhKM0VbLWVYVw\u0026s",
+                         "isActive":  true,
+                         "priceUsd":  4.2,
+                         "createdAt":  "2026-05-25T04:03:49.895Z",
+                         "imageUrls":  [
+                                           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFmsmvuGLYLhcBWyMJr_yT5OhKM0VbLWVYVw\u0026s"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Cuenta con duración permanente y con una garantía de 48 horas",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Movistar / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-d4a0092a-334a-4e37-bb62-244d7c3135ea",
+                         "name":  "Mc Stock / capes",
+                         "slug":  "mc-stock-capes",
+                         "isSold":  false,
+                         "features":  "Tiene la capa pan",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-fd5b76c0-eea3-4108-a8ef-f1b41b793ad0.png",
+                         "isActive":  true,
+                         "priceUsd":  4.99,
+                         "createdAt":  "2026-05-28T21:35:19.299Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-fd5b76c0-eea3-4108-a8ef-f1b41b793ad0.png",
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-98869c96-3b23-41ec-b11b-ba48816fbadb.png"
+                                       ],
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Minecraft full access / Capa pan",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega"
+                     },
+                     {
+                         "id":  "prod-142e5882-fa9c-442e-876f-606f4502cba4",
+                         "name":  "Mc Stock / capes",
+                         "slug":  "mc-stock-capes",
+                         "isSold":  false,
+                         "features":  "Tiene la capa pan",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-8e024c80-174e-4517-b5ef-54608c4d2e93.png",
+                         "isActive":  true,
+                         "priceUsd":  4.99,
+                         "createdAt":  "2026-05-28T21:42:27.532Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-8e024c80-174e-4517-b5ef-54608c4d2e93.png",
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-9ae105d4-4090-46eb-a594-abeb8da0d5cb.png"
+                                       ],
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Minecraft full access / Capa pan",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega"
+                     },
+                     {
+                         "id":  "prod-0e8bc4ca-d847-4e45-a41c-3731e0298012",
+                         "name":  "Mc Stock / capes",
+                         "slug":  "mc-stock-capes",
+                         "isSold":  false,
+                         "features":  "Tiene la capa pan",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-efb444f3-db69-4ea8-b59c-8d7395ff0acc.png",
+                         "isActive":  true,
+                         "priceUsd":  5.5,
+                         "createdAt":  "2026-05-28T21:42:29.263Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-efb444f3-db69-4ea8-b59c-8d7395ff0acc.png",
+                                           "https://ik.imagekit.io/6ujrxqwom/dsadaaa.png"
+                                       ],
+                         "categoryId":  "cat-minecraft",
+                         "isFeatured":  false,
+                         "description":  "Minecraft full access / Capa menace, pan y common",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto de Minecraft revisado antes de entregar. Abre ticket para confirmar imagen, disponibilidad, acceso, garantia aplicable y pasos de entrega"
+                     },
+                     {
+                         "id":  "prod-9a83161c-f65f-4830-9b62-0a234a9a1ffd",
+                         "name":  "Crunchyroll fan / permanente",
+                         "slug":  "crunchyroll-permanente",
+                         "isSold":  false,
+                         "features":  "Streaming para ver animes en calidad, idioma, subtitulos y sin anuncios",
+                         "imageUrl":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-g3Dh5tW9xotpK_VcV9pqySjE9Rhqr07_Q\u0026s",
+                         "isActive":  true,
+                         "priceUsd":  2.5,
+                         "createdAt":  "2026-05-29T03:02:29.346Z",
+                         "imageUrls":  [
+                                           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-g3Dh5tW9xotpK_VcV9pqySjE9Rhqr07_Q\u0026s"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Streaming para ver animes en calidad, idioma, subtitulos y sin anuncios",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Crunchyroll Fan / Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-7e90e1fd-ef2c-45ce-9259-954feec1cf58",
+                         "name":  "Crunchyroll mega fan/ permanente",
+                         "slug":  "crunchyroll-mega-fan-permanente",
+                         "isSold":  false,
+                         "features":  "Streaming para ver animes en calidad, idioma, subtitulos y sin anuncios\r\nMuchas mejor y mas ventajas e beneficios que el crunchyroll fan",
+                         "imageUrl":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs6TEPAsyxQEy1GSP8oTl_1NltreJ71kvqEQ\u0026s",
+                         "isActive":  true,
+                         "priceUsd":  3,
+                         "createdAt":  "2026-05-29T03:04:11.410Z",
+                         "imageUrls":  [
+                                           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs6TEPAsyxQEy1GSP8oTl_1NltreJ71kvqEQ\u0026s"
+                                       ],
+                         "categoryId":  "cat-streaming",
+                         "isFeatured":  false,
+                         "description":  "Acceso digital de entretenimiento. Antes de pagar confirmamos stock, duracion, condiciones de uso y garantia disponible para que la compra quede clara desde el inicio. Detalle actual: Streaming para ver animes en calidad, idioma, subtitulos y sin anuncios Muchas mejor y mas ventajas e beneficios que el crunchyroll fan",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Crunchyroll Mega Fan/ Permanente con entrega por ticket, revision de disponibilidad y garantia indicada por staff."
+                     },
+                     {
+                         "id":  "prod-7010c488-3831-4d4f-a0a9-d820bc44013b",
+                         "name":  "Duolingo / permanente",
+                         "slug":  "duolingo-permanente",
+                         "isSold":  false,
+                         "features":  "Aprende idiomas de forma divertidas y entretenidas con la versión mejorada y premiun de duolingo / incluye una garantía de 90 dias",
+                         "imageUrl":  "https://www.marketbeat.com/logos/duolingo-inc-logo.png?v=20240109092134",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-05-29T04:51:06.043Z",
+                         "imageUrls":  [
+                                           "https://www.marketbeat.com/logos/duolingo-inc-logo.png?v=20240109092134"
+                                       ],
+                         "categoryId":  "cat-robux",
+                         "isFeatured":  false,
+                         "description":  "Duolingo premiun",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Aprende idiomas de forma divertidas y entretenidas con la versión mejorada y premiun de duolingo / incluye una garantía de 90 dias"
+                     },
+                     {
+                         "id":  "prod-0b91b7fb-d869-4d25-b9a1-3f0d22bbc90f",
+                         "name":  "FILMORA / permanente",
+                         "slug":  "filmora-permanente",
+                         "isSold":  false,
+                         "features":  "Editor de video profesional versión premiun y pro / incluye una garantía de 90 dias",
+                         "imageUrl":  "https://zamve.com/wp-content/uploads/2021/12/Wondershare-Filmora-Subscription-from-Zmave-Online-Subscription-Shop-BD-by-zamve.com_.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-05-29T04:54:46.472Z",
+                         "imageUrls":  [
+                                           "https://zamve.com/wp-content/uploads/2021/12/Wondershare-Filmora-Subscription-from-Zmave-Online-Subscription-Shop-BD-by-zamve.com_.jpg"
+                                       ],
+                         "categoryId":  "cat-robux",
+                         "isFeatured":  false,
+                         "description":  "FILMORA pro",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Editor de video profesional versión premiun y pro / incluye una garantía de 90 dias"
+                     },
+                     {
+                         "id":  "prod-2d50a69c-3768-40fc-a672-df3ad1460e8b",
+                         "name":  "DB PE",
+                         "slug":  "profesional-developer",
+                         "isSold":  false,
+                         "features":  "Servicio de una persona profesional en developer, creador de paginas web, bots de discord y mucho mas",
+                         "imageUrl":  "https://www.shutterstock.com/image-illustration/database-peru-concept-folders-filing-260nw-2096695654.jpg",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-05-30T20:44:55.279Z",
+                         "imageUrls":  [
+                                           "https://www.shutterstock.com/image-illustration/database-peru-concept-folders-filing-260nw-2096695654.jpg"
+                                       ],
+                         "categoryId":  "cat-fortnite",
+                         "isFeatured":  false,
+                         "description":  "Servicio de 1 solo uso",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Data base Peruano"
+                     },
+                     {
+                         "id":  "prod-10ef0a13-25bf-4190-b15e-159263ae3b9a",
+                         "name":  "followers tik tok",
+                         "slug":  "1k-followers-tt",
+                         "isSold":  false,
+                         "features":  "1k de followers en tiktok, no se caen y son permanentes",
+                         "imageUrl":  "https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png",
+                         "isActive":  true,
+                         "priceUsd":  4,
+                         "createdAt":  "2026-06-26T18:19:00.697Z",
+                         "imageUrls":  [
+                                           "https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png"
+                                       ],
+                         "categoryId":  "cat-fortnite",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para crecimiento o reventa. Se atiende por ticket para confirmar alcance, tiempos aproximados, requisitos y condiciones antes de iniciar. Detalle actual: 1000 Seguidores en 3 plataformas / non drops (son permanentes los seguidores, nunca se iran)",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "1k de followers en tiktok, no se caen y son permanentes"
+                     },
+                     {
+                         "id":  "prod-aabb8c1a-393c-4100-bc52-d81a1d19c054",
+                         "name":  "followers twich",
+                         "slug":  "1k-followers-twich",
+                         "isSold":  false,
+                         "features":  "1k de followers en twich, no se caen y son permanentes",
+                         "imageUrl":  "https://i.redd.it/76awrcvcm9i51.jpg",
+                         "isActive":  true,
+                         "priceUsd":  2,
+                         "createdAt":  "2026-06-26T18:20:07.536Z",
+                         "imageUrls":  [
+                                           "https://i.redd.it/76awrcvcm9i51.jpg"
+                                       ],
+                         "categoryId":  "cat-fortnite",
+                         "isFeatured":  false,
+                         "description":  "Servicio digital para crecimiento o reventa. Se atiende por ticket para confirmar alcance, tiempos aproximados, requisitos y condiciones antes de iniciar. Detalle actual: 1000 Seguidores en 3 plataformas / non drops (son permanentes los seguidores, nunca se iran)",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "1k de followers en twich, no se caen y son permanentes"
+                     },
+                     {
+                         "id":  "prod-1b1b2ece-283c-4ef9-a2cd-3fd0b9e5910d",
+                         "name":  "Metodo decoraciones de discord",
+                         "slug":  "metodo-decoraciones-de-discord",
+                         "isSold":  false,
+                         "features":  "Entrega por ticket.\r\nSoporte por Discord.",
+                         "imageUrl":  "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-99fedcab-757e-4306-bf81-d2ccd79e8d14.png",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-07-07T04:30:38.705Z",
+                         "imageUrls":  [
+                                           "https://tkhwrnjonzlfpggmqvgp.supabase.co/storage/v1/object/public/product-images/products/product-image-99fedcab-757e-4306-bf81-d2ccd79e8d14.png"
+                                       ],
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Producto disponible por ticket en Discord.",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto disponible por ticket en Discord."
+                     },
+                     {
+                         "id":  "prod-e460d568-9537-44da-bac8-33a8b880205b",
+                         "name":  "Metodo server boost",
+                         "slug":  "metodo-server-boost",
+                         "isSold":  false,
+                         "features":  "Entrega por ticket.\nSoporte por Discord.",
+                         "imageUrl":  "https://miro.medium.com/1*sK1740P_lvqF99wGZEzeSw.jpeg",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-07-07T04:31:21.766Z",
+                         "imageUrls":  [
+                                           "https://miro.medium.com/1*sK1740P_lvqF99wGZEzeSw.jpeg"
+                                       ],
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Producto disponible por ticket en Discord.",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto disponible por ticket en Discord."
+                     },
+                     {
+                         "id":  "prod-6ebccbc2-895e-451d-b44c-a2716c1c3c58",
+                         "name":  "Metodo robux",
+                         "slug":  "metodo-robux",
+                         "isSold":  false,
+                         "features":  "Entrega por ticket.\nSoporte por Discord.",
+                         "imageUrl":  "https://i.ytimg.com/vi/-jf5NUc1uI4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD\u0026rs=AOn4CLA-_6wHswpL_Kuo7QPQoZ3RWS4DMA",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-07-07T04:32:11.743Z",
+                         "imageUrls":  [
+                                           "https://i.ytimg.com/vi/-jf5NUc1uI4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD\u0026rs=AOn4CLA-_6wHswpL_Kuo7QPQoZ3RWS4DMA"
+                                       ],
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Producto disponible por ticket en Discord.",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto disponible por ticket en Discord."
+                     },
+                     {
+                         "id":  "prod-30c70027-773e-4368-abc0-4a38381099b2",
+                         "name":  "Metodo Ranks, configs, bypass",
+                         "slug":  "metodo-ranks-configs-bypass",
+                         "isSold":  false,
+                         "features":  "Entrega por ticket.\nSoporte por Discord.",
+                         "imageUrl":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQThodBFpTxgcxBG6UejiJHUuH-6FgmQU8CQZ-jelc07ewwya0-t5ydck\u0026s=10",
+                         "isActive":  true,
+                         "priceUsd":  5,
+                         "createdAt":  "2026-07-07T04:35:04.390Z",
+                         "imageUrls":  [
+                                           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQThodBFpTxgcxBG6UejiJHUuH-6FgmQU8CQZ-jelc07ewwya0-t5ydck\u0026s=10"
+                                       ],
+                         "categoryId":  "cat-otros",
+                         "isFeatured":  false,
+                         "description":  "Producto disponible por ticket en Discord.",
+                         "deliveryDetails":  "Entrega coordinada por ticket en Discord.",
+                         "shortDescription":  "Producto disponible por ticket en Discord."
+                     }
+                 ],
+    "settings":  {
+                     "id":  "main",
+                     "tagline":  "Productos digitales con entrega rapida, soporte por ticket y stock administrable para escalar ventas desde Discord.",
+                     "brandName":  "Smar\u0027t shop",
+                     "heroTitle":  "La tienda digital rosa que convierte visitas en tickets reales",
+                     "brandLabel":  "Discord shop",
+                     "discordUrl":  "https://discord.gg/V64nVBA9yU",
+                     "heroEyebrow":  "Storefront premium",
+                     "supportBody":  "El flujo es simple y solido: muestras stock, guias la compra a Discord, administras inventario por lotes y actualizas contenido desde un panel protegido. No es una demo, es una base operable para una Discord shop real.",
+                     "discordLabel":  "Comprar en Discord",
+                     "primaryColor":  "#ff4fa6",
+                     "featuredPrice":  10,
+                     "featuredTitle":  "Acceso premium y cuentas digitales verificadas",
+                     "secondaryColor":  "#ff8cc2",
+                     "heroDescription":  "Smar\u0027t shop esta pensada para vender cuentas, servicios y digitales con catalogo claro, secciones de confianza y control interno completo para que tu solo gestiones ventas.",
+                     "supportHeadline":  "Lista para crecer contigo y salir a produccion",
+                     "featuredBenefits":  "Entrega coordinada por ticket.\nInventario visible para el cliente.\nProductos editables y categorias escalables.\nFlujo pensado para vender sin perder orden.",
+                     "featuredStockNote":  "El numero visible se conecta al stock real cargado en el panel."
+                 },
+    "categories":  [
+                       {
+                           "id":  "cat-minecraft",
+                           "name":  "Minecraft",
+                           "slug":  "minecraft",
+                           "isActive":  true,
+                           "position":  1,
+                           "accentColor":  "#ff4fa6",
+                           "description":  "Categoria de productos de la tienda."
+                       },
+                       {
+                           "id":  "cat-discord",
+                           "name":  "Discord",
+                           "slug":  "discord",
+                           "isActive":  true,
+                           "position":  3,
+                           "accentColor":  "#ff6bb3",
+                           "description":  "Categoria de productos de la tienda."
+                       },
+                       {
+                           "id":  "cat-streaming",
+                           "name":  "Streaming",
+                           "slug":  "streaming",
+                           "isActive":  true,
+                           "position":  2,
+                           "accentColor":  "#ff8cc2",
+                           "description":  "Categoria de productos de la tienda."
+                       },
+                       {
+                           "id":  "cat-fortnite",
+                           "name":  "Only Stock",
+                           "slug":  "only stock",
+                           "isActive":  true,
+                           "position":  4,
+                           "accentColor":  "#ff5792",
+                           "description":  "Categoria de productos de la tienda."
+                       },
+                       {
+                           "id":  "cat-robux",
+                           "name":  "Services",
+                           "slug":  "services",
+                           "isActive":  true,
+                           "position":  5,
+                           "accentColor":  "#ff73b8",
+                           "description":  "Categoria de productos de la tienda."
+                       },
+                       {
+                           "id":  "cat-social",
+                           "name":  "Games",
+                           "slug":  "games",
+                           "isActive":  true,
+                           "position":  6,
+                           "accentColor":  "#ffa1d0",
+                           "description":  "Categoria de productos de la tienda."
+                       },
+                       {
+                           "id":  "cat-otros",
+                           "name":  "Metodos",
+                           "slug":  "metodos",
+                           "isActive":  true,
+                           "position":  7,
+                           "accentColor":  "#ffd0e5",
+                           "description":  "Categoria de productos de la tienda."
+                       }
+                   ],
+    "stockItems":  [
+
+                   ],
+    "announcements":  [
+                          {
+                              "id":  "ann-1",
+                              "title":  "Stock actualizado",
+                              "ctaUrl":  "https://discord.gg/V64nVBA9yU",
+                              "message":  "Abre ticket en Discord para confirmar disponibilidad y entrega.",
+                              "ctaLabel":  "Ir a Discord",
+                              "isActive":  true,
+                              "position":  1
+                          }
+                      ],
+    "paymentMethods":  [
+                           {
+                               "id":  "pay-1",
+                               "region":  "Global",
+                               "methods":  "Crypto / Metodos acordados por ticket",
+                               "isActive":  true,
+                               "position":  1
+                           },
+                           {
+                               "id":  "pay-2",
+                               "region":  "MX",
+                               "methods":  "Oxxo / Transferencia Mexico",
+                               "isActive":  true,
+                               "position":  2
+                           },
+                           {
+                               "id":  "pay-3",
+                               "region":  "AR",
+                               "methods":  "Mercado Pago / Transferencia",
+                               "isActive":  true,
+                               "position":  3
+                           },
+                           {
+                               "id":  "pay-4",
+                               "region":  "CO",
+                               "methods":  "Nequi / Transferencia",
+                               "isActive":  true,
+                               "position":  4
+                           }
+                       ]
+}

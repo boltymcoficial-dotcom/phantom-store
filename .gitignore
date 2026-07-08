@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env.local
+.env
+migrate.mjs
+smarts-raw.json
+supabase/.temp/
+tsconfig.tsbuildinfo
+*.node
