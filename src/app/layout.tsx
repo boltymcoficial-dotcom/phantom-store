@@ -14,8 +14,8 @@ const bodyFont = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PHANTOM STORE",
-  description: "Discord shop premium con stock administrable y panel interno.",
+  title: "PHANTOM store",
+  description: "La Mejor Shop para gastar tu sueldo minimo :D",
 };
 
 export default function RootLayout({

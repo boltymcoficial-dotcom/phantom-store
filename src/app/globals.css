@@ -178,7 +178,7 @@ html, body {
     z-index: 1;
     background-image: url('/ballen.png');
     background-size: cover;
-    background-position: center center;
+    background-position: center 85%;
     background-repeat: no-repeat;
     background-color: #0a0a0a;
     /* Sube la imagen subiendo el section bajo el sticky header */
