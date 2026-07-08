@@ -19,7 +19,7 @@ type StorefrontProduct = {
   isSold?: boolean;
 };
 
-const DISCORD_URL = "https://discord.gg/KT8RRtF48t";
+const DISCORD_URL = "https://discord.gg/Z4gGVRcHnj";
 
 function modalSocialLinks(discordUrl: string) {
   const url = discordUrl || DISCORD_URL;
